@@ -94,9 +94,11 @@ Underwater-Pipeline-Detection/
 
 ## 🧪 Example Output  
 
-| Original Image | Baseline Result | Enhanced Result |
-|----------------|------------------|----------------|
-| *(Add your example images here)* | *(Before result)* | *(After result)* |
+| Original Image | 
+
+| Enhanced Result |
+
+
 
 ---
 
