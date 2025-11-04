@@ -52,3 +52,64 @@ Underwater-Pipeline-Detection/
 │
 ├── README.md
 └── requirements.txt
+
+## 🧮 Methodology  
+
+### **1️⃣ Preprocessing**
+- Convert to **Grayscale**  
+- Apply **White Balancing**  
+- Enhance local contrast using **CLAHE (Contrast Limited Adaptive Histogram Equalization)**  
+
+### **2️⃣ Edge Enhancement**
+- Apply **Gaussian Filtering** to reduce noise  
+- Use **Adaptive Thresholding** for dynamic edge detection  
+
+### **3️⃣ Feature Extraction**
+- Detect and filter **Contours**  
+- Apply **ROI selection** to focus on likely pipeline areas  
+
+### **4️⃣ Line Detection**
+- Use **Probabilistic Hough Transform** to extract line-like pipeline structures  
+
+### **5️⃣ Post-processing**
+- Overlay detected lines on the original image  
+- Output visual results for comparison  
+
+---
+
+## 📊 Results  
+
+| Algorithm | Images Processed | Successful Detections | Success Rate |
+|------------|------------------|------------------------|---------------|
+| Existing (Baseline) | 16 | 9 | 56.25% |
+| **Proposed (Enhanced)** | **18** | **15** | **83.33%** |
+
+- Enhanced visibility in low-light, turbid underwater conditions  
+- Robust to noise and variable illumination  
+- Real-time performance suitable for AUV deployment  
+
+---
+
+## 🧪 Example Output  
+
+| Original Image | Baseline Result | Enhanced Result |
+|----------------|------------------|----------------|
+| *(Add your example images here)* | *(Before result)* | *(After result)* |
+
+---
+
+## 🧰 Requirements  
+
+```bash
+opencv-python
+numpy
+matplotlib
+scikit-image
+
+@inproceedings{singh2025pipeline,
+  title={Enhancing Underwater Pipeline Detection for Robotic Exploration and Maintenance Using Classical Computer Vision Techniques},
+  author={Prakash, Kranti and Patil, Chaitanya Shashikant and Singh, Arashdeep and Danorkar, Harshit Rajesh},
+  booktitle={Proceedings of [Conference Name]},
+  year={2025},
+  organization={IIT Jodhpur}
+}
