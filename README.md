@@ -107,7 +107,10 @@ opencv-python
 numpy
 matplotlib
 scikit-image
+```
+🏁 Citation
 
+If you use this work, please cite:
 @inproceedings{singh2025pipeline,
   title={Enhancing Underwater Pipeline Detection for Robotic Exploration and Maintenance Using Classical Computer Vision Techniques},
   author={Prakash, Kranti and Patil, Chaitanya Shashikant and Singh, Arashdeep and Danorkar, Harshit Rajesh},
