@@ -52,6 +52,8 @@ Underwater-Pipeline-Detection/
 │
 ├── README.md
 └── requirements.txt
+```
+---
 
 ## 🧮 Methodology  
 
