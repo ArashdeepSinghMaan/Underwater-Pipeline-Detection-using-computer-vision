@@ -95,8 +95,10 @@ Underwater-Pipeline-Detection/
 ## 🧪 Example Output  
 
 | Original Image | 
+![Original Image](https://github.com/ArashdeepSinghMaan/Enhancing-Underwater-Pipeline-Detection-for-Robotic-Exploration-and-Maintenance-Using-Classical-Comp/blob/a3b183af526597c546e3fddfb6e4437e190470a7/data/sample_images/IMG-20240307-WA0031.jpg)
 
 | Enhanced Result |
+![Enhanced Detection Result](https://github.com/ArashdeepSinghMaan/Enhancing-Underwater-Pipeline-Detection-for-Robotic-Exploration-and-Maintenance-Using-Classical-Comp/blob/a3b183af526597c546e3fddfb6e4437e190470a7/data/results/output14.png)
 
 
 
