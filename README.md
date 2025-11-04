@@ -48,7 +48,7 @@ Underwater-Pipeline-Detection/
 │   ├── pipeline.py           # Full algorithm integration
 │
 ├── notebooks/
-│   ├── underwater_detection.ipynb   # Google Colab notebook (add your link below)
+│   ├── underwater_detection.ipynb   
 │
 ├── README.md
 └── requirements.txt
